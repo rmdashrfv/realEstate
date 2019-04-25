@@ -25,6 +25,12 @@ body {
   font-size: 18px;
 }
 
+.main-header {
+  background-image: url('https://cdn.vox-cdn.com/thumbor/ufh2N5hs2Jq5GT2xMFrQ_Nodgp8=/0x0:5760x3840/1200x900/filters:focal(2420x1460:3340x2380)/cdn.vox-cdn.com/uploads/chorus_image/image/55306753/shutterstock_274960727.0.jpg');
+  background-size: cover;
+  background-position: 50% 25%;
+  height: 39vh;
+}
 
 .image-grid {
   display: grid;
