@@ -1,0 +1,9 @@
+.image-grid {
+  display: grid;
+}
+
+.image-grid div {
+  background-image: url('http://lorempixel.com/400/200/city');
+  width: 400px;
+  height: 200px;
+}
