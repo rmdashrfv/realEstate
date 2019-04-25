@@ -94,8 +94,21 @@ p {
   justify-content: center;
   grid-template: 300px / 35% 40%;
   grid-gap: 3.8%;
+  text-align: center;
 }
 
 .info-grid p {
   line-height: 1.6;
+}
+
+.info-grid div button {
+  margin-top: 21%;
+  background: rgba(0, 0, 0, 0);
+  border-color: #fff;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 4% 8%;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
