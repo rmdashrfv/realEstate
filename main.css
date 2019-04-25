@@ -2,6 +2,14 @@ body {
   margin: 0;
 }
 
+h1, h2 {
+  font-family: 'Cinzel', serif;
+}
+
+p {
+  font-size: 1.13em;
+}
+
 #navbar {
   background: #0E0E0E;
   text-align: center;
@@ -64,10 +72,30 @@ body {
 
 .image-grid {
   display: grid;
+  grid-template: 180px 180px / 20vw 20vw;
+  grid-gap: 2%;
 }
 
 .image-grid div {
   background-image: url('http://lorempixel.com/400/200/city');
-  width: 400px;
-  height: 200px;
+  background-size: cover;
+}
+
+.info-section {
+  margin-top: 3%;
+}
+
+.info-header {
+  text-align: center;
+}
+
+.info-grid {
+  display: grid;
+  justify-content: center;
+  grid-template: 300px / 35% 40%;
+  grid-gap: 3.8%;
+}
+
+.info-grid p {
+  line-height: 1.6;
 }
