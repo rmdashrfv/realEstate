@@ -44,6 +44,27 @@ p {
   color: whitesmoke;
 }
 
+.search-form {
+  text-align: left;
+}
+
+.search-form label {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.search-form input {
+  padding: 5px 10px 5px 5px;
+}
+
+.search-form input[type='text'] {
+  width: 80%;
+}
+
+.search-form input[type='submit'] {
+  width: 15%;
+}
+
 .search-grid {
   text-align: center;
   padding-top: 6%;
