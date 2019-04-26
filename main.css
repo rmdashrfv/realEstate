@@ -112,3 +112,7 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+.info-grid div button:hover {
+  cursor: pointer;
+}
