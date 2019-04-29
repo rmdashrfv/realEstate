@@ -43,7 +43,7 @@ p {
 }
 
 .main-header h1, .main-header h2, .search-grid p {
-  color: whitesmoke;
+  color: red;
 }
 
 .search-form {
